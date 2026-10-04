@@ -1,0 +1,16 @@
+package Com.Kodewala.Constructor6;
+
+
+public class Driver {
+	public static void main(String[] args) {
+		
+		ElectronicProduct = electronicProduct = new ElectronicProduct
+	}
+	Product p = new Product();
+	System.out.println(electronicProduct.productName);
+	System.out.println(electronicProduct.productId);
+	System.out.println(electronicProduct.productPrice);
+	System.out.println(electronicProduct.Warranty);
+}
+
+}

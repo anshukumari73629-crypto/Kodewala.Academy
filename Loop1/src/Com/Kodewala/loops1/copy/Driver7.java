@@ -1,0 +1,23 @@
+package Com.Kodewala.loops1.copy;
+
+public class Driver7 {
+	public static void main(String[] args) {
+		//100k cities
+			String[] cities =  {"Banglore", "Mumbai","Ranchi", "Delhi", "Jaipur", "Udaypur", "Mumbai", "Delhi", "chandigarh",
+					"Bhopal", "Banglore", "Nagpur", "kochi", "Surat", "Banglore", "Delhi", "Banglore"};
+			
+			//find if Banglore is the part of list or not
+			
+		for(int index= 0; index<cities.length; index++)	
+		{
+String currentCity = cities[index];
+if(currentCity.equals("Banglore"));
+		{
+			System.out.println("Banglore is the part of city list");
+			break; 
+		}
+		}
+
+	}
+}
+	

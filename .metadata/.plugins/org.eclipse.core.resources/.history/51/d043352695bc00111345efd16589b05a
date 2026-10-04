@@ -1,0 +1,27 @@
+package Com.Kodewala.Array;
+
+public class MobileDetails {
+	public static void main(String[] args) {
+		Mobile mobile1 = new Mobile("Samsung", 45000, 128);
+		Mobile mobile2 = new Mobile("Iphone17", 150000, 128);
+		Mobile mobile3 = new Mobile("Vivo", 35000, 256);
+		Mobile mobile4 = new Mobile("Oppo", 45000, 128);
+		Mobile mobile5 = new Mobile("Ntng", 30000, 64);
+		Mobile mobile6 = new Mobile("Samsung S24", 140000, 128);
+		Mobile mobile7 = new Mobile("Iphone 15", 78000, 256);
+		
+	Mobile mobiles[] = new Mobile[7];
+	
+	mobiles [0] = mobile1;
+	mobiles [1] = mobile2;
+	mobiles [2] = mobile3;
+	mobiles [3] = mobile4;
+	mobiles [4] = mobile5;
+	mobiles [5] = mobile6;
+	mobiles [6] = mobile7;
+	
+	for(int i = 0; i < 7; i++);
+	System.out.println("Mobile index: " +i);
+	}
+}
+}

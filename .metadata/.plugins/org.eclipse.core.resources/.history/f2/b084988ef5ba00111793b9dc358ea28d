@@ -1,0 +1,14 @@
+package Com.Kodewala.Constructor6;
+
+public class ElectronicProduct {
+	int warranty;
+
+	public ElectronicProduct(String _productName, String _productId, String _productPrice, String _productWarrany,int _warranty){
+
+	{
+		
+	public ElectronicProduct(int warranty) {
+		super();
+		this.warranty = warranty;
+	}
+}

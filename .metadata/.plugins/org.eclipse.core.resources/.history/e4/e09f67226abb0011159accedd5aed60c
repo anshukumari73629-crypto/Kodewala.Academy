@@ -1,0 +1,15 @@
+package Com.Kodewala.product1;
+
+public class Product {
+	String productName;
+	String productId;
+	String productPrice;
+
+	Product(String _productName, String _productId, String _productPrice) {
+
+		this.productName = productName;
+		this.productId = productId;
+		this.productPrice = productPrice;
+	}
+
+}

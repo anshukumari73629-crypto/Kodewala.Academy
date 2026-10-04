@@ -1,0 +1,4 @@
+package Com.Kodewala.Practice1;
+public class StudentInfo {
+
+}

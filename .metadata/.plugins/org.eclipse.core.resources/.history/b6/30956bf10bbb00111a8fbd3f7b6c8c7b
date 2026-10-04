@@ -1,0 +1,15 @@
+package Com.Kodewala.Practice1;
+
+public class Student {
+	String name;
+	int age;
+	String marks;
+
+	public Student(String name, int age, String marks) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.marks = marks;
+	}
+
+}

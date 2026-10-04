@@ -1,0 +1,29 @@
+package com.kodewala.scanner;
+import java.util.Scanner;
+public class ScannerEx{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);//Creates connection with console
+		
+		System.out.println("please enter the name...");
+		String name = sc.nextLine();//reading String boot
+		
+		System.out.println("please enter product price..");
+		
+        int price = sc.nextInt();// reading int -->this will leave now line char\in
+         
+        sc.textline();//Console the extra char
+        
+        System.out.println("please enter dilevery adddress..");
+        
+        String address = sc.next();//Console single char
+        
+        System.out.println("name : +name");
+	    System.out.println("price: "+address);
+	    System.out.println("dilevery address: "+dilevery address);
+	
+	
+	
+	
+	}
+
+}

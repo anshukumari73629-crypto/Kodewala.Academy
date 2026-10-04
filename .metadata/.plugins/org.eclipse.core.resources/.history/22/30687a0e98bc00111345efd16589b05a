@@ -1,0 +1,14 @@
+package Com.Kodewala.Array;
+
+public class Mobile {
+	
+String brand; 
+int price;
+int storage;
+public Mobile(String brand, int price, int storage) {
+	super();
+	this.brand = brand;
+	this.price = price;
+	this.storage = storage;
+}
+}

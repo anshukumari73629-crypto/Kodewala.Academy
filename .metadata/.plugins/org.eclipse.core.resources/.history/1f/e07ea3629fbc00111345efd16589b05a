@@ -1,0 +1,25 @@
+package Com.Kodewala.Array;
+
+public class BookDetails {
+	public static void main(String[] args) {
+		Book book1 = new Book("java", "james", 1000);
+		Book book2 = new Book("python", "Guido", 500);
+		Book book3 = new Book("Excel", "Sagar", 300);
+		Book book4 = new Book("Maths", "Amit", 400);
+		Book book5 = new Book("science", "Aarnav", 950);
+		Book book6 = new Book("physics", "Sumit", 500);
+
+		Book books[] = new Book[5];
+		books[0] = book1;
+		books[1] = book2;
+		books[2] = book3;
+		books[3] = book4;
+		books[4] = book5;
+		books[5] = book6;
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println("Car index :" + i);
+		}
+	}
+
+}

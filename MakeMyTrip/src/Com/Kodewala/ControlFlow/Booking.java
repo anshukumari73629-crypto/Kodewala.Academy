@@ -1,0 +1,23 @@
+package Com.Kodewala.ControlFlow;
+
+/**
+ * This class is responsible for accepting booking from user.
+ */
+public class Booking
+{
+	// More than 6 pax per PNR is not allowed
+	public String doBooking(String from, String to, int noofpax)
+	{ 
+		String pnr = null;
+		if (noofpax > 6)// if true than only below code gets executed.
+		{
+			// Do not allowed to book
+			System.out.println("As per IRCTC policy, only 6 pax are allowed per PNR");
+		}
+        //...
+		// ....
+		return pnr ;
+
+	}
+
+}

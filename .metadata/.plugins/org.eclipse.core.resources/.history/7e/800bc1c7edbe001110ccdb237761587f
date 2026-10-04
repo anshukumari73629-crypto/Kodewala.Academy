@@ -1,0 +1,17 @@
+package Com.Kodewala.loops1;
+
+import java.util.Scanner;
+
+public class Driver {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);//Create connection with console
+		
+		System.out.println("please enter the name: ");
+		String name = sc.nextLine();//Reading string input
+		
+		System.out.println("Nmae is : +name");
+				
+		
+	}
+
+}

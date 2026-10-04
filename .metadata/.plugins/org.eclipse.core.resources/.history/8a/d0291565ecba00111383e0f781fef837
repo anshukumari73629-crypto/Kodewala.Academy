@@ -1,0 +1,12 @@
+package COM.Kodewala.User;
+
+import java.nio.channels.NonReadableChannelException;
+
+public class Driver {
+	public static void main(String[] args) {
+		Signup signup = new Signup();
+		signup.doSignup();
+	}
+}
+
+}

@@ -1,0 +1,32 @@
+package Com.Kodewala.ControlFlow;
+
+public class ShoppingPlanner {
+
+	public static void main(String[] args) {
+		String suggestion = null;
+
+		if (budget <= 1000) {
+
+			suggestion = "you can buy small items like t-shirt etc...";
+			System.out.println(suggestion);
+
+		} else if (budget > 1000 && budget < -3000) {
+
+			suggestion = "you can buy shoes or good clothes";
+			System.out.println(suggestion);
+
+		} else if (budget > 3000 && budget <= 5000) {
+
+			suggestion = "you can buy branded clothes and shoes";
+			System.out.println(suggestion);
+
+		} else {
+			
+			suggestion = "you can expensive brandard products";
+			System.out.println(suggestion);
+		}
+		return suggestion;
+
+	}
+
+}

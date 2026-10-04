@@ -1,0 +1,46 @@
+package Com.Kodewala.loops1.copy;
+
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.IconifyAction;
+
+public class Driver12 {
+	public static void main(String[] args) {
+		String[] cities = {
+				"Banglore","Mumbai","Ranchi","Delhi",
+				"Jaipur","Udaypur","Chandigarh","Bhopal","Nagpur",
+				"Kochi","Surat"
+				};
+		String city1 = "Banglore";
+		String city2 = "Delhi";
+		
+		boolean foundCity1 = false;
+		boolean foundCity2 = false;
+		
+		for(int index = 0; index < cities.length; index++);{
+		
+		String currentCity = cities[index];
+		
+		if (currentCity.equals(city1)) {
+			foundCity1 = true;
+		}
+		if (currentCity.equals(city2)) {
+			foundCity2 = true;
+		}
+	if (foundCity1 && foundCity2) {
+		System.out.println("Both cities are prsent");
+	} else if(foundCity1) {
+
+		System.out.println(city1 + " is prsent");
+		System.out.println(city2 + " is not prsent");
+	} else if(foundCity2)
+	{
+		System.out.println(city2 + "is present");
+		System.out.println(city1 + "is not present");
+	}else
+	{
+		System.out.println("Both  cities are not present");
+	}
+
+}
+	}
+
+}

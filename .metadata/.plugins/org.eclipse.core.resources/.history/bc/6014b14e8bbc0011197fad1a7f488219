@@ -1,0 +1,16 @@
+package Com.Kodewala.Array;
+
+public class Student {
+	String name;
+	int age;
+	int marks;
+	int number;
+
+	public Student(String name, int age, int marks) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.marks = marks;
+		this.number = number;
+	}
+}

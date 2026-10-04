@@ -1,0 +1,25 @@
+package Com.Kodewala.loops1.copy;
+
+import java.util.Scanner;
+
+public class Driver1 {
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner (System.in);//Create connection with console
+		
+		System.out.println("please enter the name:");
+		String name = sc.nextLine();
+		
+		System.out.println("please enter product price..");
+		int price = sc.nextInt();//Reading integer
+		
+		System.out.println("please enter the delivery address");
+		String address = sc.nextLine();
+		
+		System.out.println("Name is : "+ name);
+		System.out.println("Price is : "+ price);
+		System.out.println("Address is : "+ address);		
+sc.close(); // close the connection
+
+}
+}

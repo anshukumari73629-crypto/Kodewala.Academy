@@ -1,0 +1,23 @@
+package Com.Kodewala.loops1.copy;
+
+public class Driver8 {
+	public static void main(String[] args) {
+		//100k 
+		int[] numbers = {10, -25, -45, 34, 45,
+				-6, 65, -5, -5, 65, -76, -65, 67,4,-9};
+//multiply +ve number by 10
+
+for(int index = 0; index < numbers.length; index++)
+{
+	int currentNumber = numbers[index];
+	
+	if(currentNumber <0)
+	{
+		continue; // skip the current iteration
+	}
+	System.out.println(currentNumber *10);
+	
+	}
+}
+	}
+

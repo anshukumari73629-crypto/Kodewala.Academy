@@ -1,0 +1,22 @@
+package COM.Kodewala.User;
+
+public class User {
+	String name;
+	String type;
+	String country;
+
+	User(String name, String type, String country) {
+		{
+
+		}
+		this.name = name;
+		this.type = type;
+		this.country = country;
+	}
+
+	Public User() {
+		// system is setting /init default value
+		this("user121", "guest_user", "india");
+	}
+
+}

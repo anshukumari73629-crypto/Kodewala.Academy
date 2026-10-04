@@ -1,0 +1,17 @@
+package Com.Kodewala.Array;
+
+public class Phone {
+	String model;
+	String brand;
+	int price;
+	int storage;
+	
+	public Phone(String model, String brand, int price, int storage) {
+		super();
+		this.model = model;
+		this.brand = brand;
+		this.price = price;
+		this.storage = storage;
+	}
+
+}

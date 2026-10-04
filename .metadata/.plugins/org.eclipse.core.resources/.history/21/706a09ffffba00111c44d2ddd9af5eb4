@@ -1,0 +1,12 @@
+package Com.Kodewala.Constructor6;
+
+public class ElectronicProduct extends product  
+{
+int warranty;
+	public ElectronicProduct(String _productName, String _productId, String _productPrice, String _productWarranty,
+			int _warranty) {
+		super(_productName, _productId, _productPrice, _productWarranty);
+
+		this.warranty = _warranty;
+	}
+}

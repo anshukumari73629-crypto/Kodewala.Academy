@@ -1,0 +1,10 @@
+package Com.Kodewala.MakeMyTrip;
+
+public class Driver {
+	public static void main(String[] args) {
+		DiscountCalculator calculator = new DiscountCalculator(0);
+		double totalFare = 8000;
+		double discount = Calculator
+	}
+
+}

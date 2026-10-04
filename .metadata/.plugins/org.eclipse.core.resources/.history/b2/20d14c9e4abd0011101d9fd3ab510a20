@@ -1,0 +1,16 @@
+package Com.Kodewala.loops3;
+
+public class Driver {
+	public static void main(String[] args) {
+		int max = 100;
+		int number = 50;
+		while (number < max) // this will till condition is true
+		{
+			System.out.println("executing...." + number);
+			number = number + 1;
+
+		}
+
+	}
+
+}

@@ -1,0 +1,13 @@
+class MultiplyNumber
+{
+    public static void main(String args[])
+    {
+        String firstNumber = args[0];
+        String secNumber = args[1];
+
+        int firstNumberInt = Integer.parseInt(firstNumber);
+        int secNumberInt = Integer.parseInt(secNumber);
+
+        System.out.println(firstNumberInt * secNumberInt);
+    }
+}

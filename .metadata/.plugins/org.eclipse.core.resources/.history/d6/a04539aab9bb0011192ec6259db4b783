@@ -1,0 +1,23 @@
+package Com.Kodewala.MakeMyTrip;
+
+public class DisscountCalculator {
+/**
+ * Calculators
+ */ 
+	//Discount based on the total fare.
+ public double CalculateDiscount(double totalFare) {
+	 double discount = 0;
+	 if (totalFare <= 500) {
+		 discount = 0;
+	 }
+	 else if (totalFare <=1000) {
+		 discount = totalFare * 0.15;
+	 }
+	 //Apply maximum discount limit
+	 if (discount> 1250) {
+		 discount = 1250;
+	 }
+ 
+ }
+}
+}

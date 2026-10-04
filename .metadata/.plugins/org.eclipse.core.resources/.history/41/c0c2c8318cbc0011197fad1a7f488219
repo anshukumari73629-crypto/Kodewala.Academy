@@ -1,0 +1,8 @@
+package Com.Kodewala.Array;
+
+public class StudentDetails {
+	public static void main(String[] args) {
+		Student student = new Student("Amit", 24, 90, 9899879);
+	}
+''
+}

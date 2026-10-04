@@ -1,0 +1,11 @@
+package COM.Kodewala.User;
+
+public class Signup {
+	{
+
+public void doSignup()
+{
+		// mot asking anything to the user
+		User user1 = new User();
+	}
+}

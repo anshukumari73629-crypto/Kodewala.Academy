@@ -1,0 +1,23 @@
+package Com.Kodewala.loops1.copy;
+
+public class Driver10 {
+	public static void main(String[] args) {
+		String[] cities = {
+				"Banglore","Mumbai","Delhi","Banglore",
+				"Ranchi","Mumbai", "Banglore", "Jaipur","Delhi","Banglore", "Surat"
+				};
+		String searchCity =  "Banglore";
+		int count =  0;
+		for(int i = 0; i <cities.length; i++) {
+		String currentCity = cities [i];
+		if (currentCity.equals(searchCity)) {
+			count++;
+		}
+		}
+		System.out.println(searchCity +"appears" + count +"times");
+	}
+		}
+		}
+	}
+
+}

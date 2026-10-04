@@ -1,0 +1,17 @@
+package Com.Kodewala.Constructor6;
+
+public class Product {
+	String productName;
+	String productId;
+	String productPrice;
+	String productWarrany;
+	public Product(String productName, String productId, String productPrice, String productWarrany) {
+	
+		this.productName = productName;
+		this.productId = productId;
+		this.productPrice = productPrice;
+		this.productWarrany = productWarrany;
+	}
+	
+
+}

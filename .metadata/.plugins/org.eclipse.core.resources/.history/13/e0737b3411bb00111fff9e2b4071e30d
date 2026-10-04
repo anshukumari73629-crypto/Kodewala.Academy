@@ -1,0 +1,10 @@
+package COM.Kodewala.User;
+
+public class Signup 
+{
+	public void Signup()
+	{
+		User user1 = new User();
+	}
+	
+}
